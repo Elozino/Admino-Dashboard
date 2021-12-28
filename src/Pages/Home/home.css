@@ -1,0 +1,17 @@
+.homeContainer {
+  flex: 5;
+  /* background-color: burlywood; */
+  padding-top: 10px;
+}
+
+.homeWidgets {
+  display: flex;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .homeWidgets {
+    flex-direction: column;
+  }
+}

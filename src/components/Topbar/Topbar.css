@@ -1,0 +1,49 @@
+.topbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo {
+  font-family: "Pushster", cursive;
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+  color: darkcyan;
+}
+
+.icon {
+  position: relative;
+  margin-left: 10px;
+  cursor: pointer;
+  color: #555;
+}
+
+.icon img{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.icon_badge {
+  position: absolute;
+  right: 4px;
+  top: -12px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
